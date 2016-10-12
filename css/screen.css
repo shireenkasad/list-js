@@ -25,6 +25,8 @@ input {
 	width: 50%; 
 	margin: -1px 0;
 	padding: 10px 5px; 
+	font-size: .9em;
+	color: #777;
 }
 
 .error {
@@ -42,6 +44,12 @@ button {
     padding: 5px;
     width: 100px;
     border-style: solid;
+    color: #418ecf;
+}
+
+button:hover{
+	background-color: #c6e0f6;
+	border-color: #adc4d7;
 }
 
 .block {
@@ -51,6 +59,7 @@ button {
     padding: 8px;
     font-size: .9em;
     line-height: 1.6em;
+    display: none;
 }
 
 .block div:first-child {
@@ -63,5 +72,15 @@ button {
     top: 0px;
     padding: 5px 12px;
     cursor: pointer;
+}
+.clearAll {
+	text-align: right;
+    padding-bottom: 5px;
+    font-size: .8em;
+    color: #418ecf;
+    cursor: pointer;
+}
+.hide {
+	display: none;
 }
 
